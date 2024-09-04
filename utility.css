@@ -92,6 +92,12 @@ body {
     display: none;
   }
 
+
+  .effect{
+    height: 150px;
+    width: 100px;
+  }
+
   nav {
     display: flex;
     align-items: center;
@@ -186,8 +192,9 @@ body {
   }
   .heading-1 {
     font-size: 40px;
-    width: 300px;
+    width: 280px;
     height: 200px;
+    text-align: center;
   }
 
   .inner-content-1 {
