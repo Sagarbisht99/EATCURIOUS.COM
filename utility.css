@@ -231,6 +231,19 @@ body {
     margin-bottom: 5px;
   }
 
+  .section-4 .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .section-4 .image img{
+    height: 250px;
+    width: 250px;
+  }
+
+
   .section-7 {
     padding: 50px;
   }
@@ -263,12 +276,16 @@ body {
     padding: 5px;
   }
 
+  .menu-card{
+     width: 350px;
+  }
+
   .social-contacts {
     flex-direction: column;
     gap: 30px;
   }
 
   input{
-    width: 30%;
+    width: 27%;
   }
 }
