@@ -190,11 +190,12 @@ body {
     align-items: center;
     flex-direction: column;
   }
-  .heading-1 {
+  .content-1 .heading-1 {
     font-size: 40px;
     width: 280px;
     height: 200px;
     text-align: center;
+    margin: 0;
   }
 
   .inner-content-1 {
@@ -249,7 +250,7 @@ body {
   }
 
   .circular-text {
-    width: 390px;
+    width: 330px;
     margin: 20px 0;
   }
 
@@ -261,10 +262,13 @@ body {
 
   .circular-image-container {
     width: 170%;
+    height: 780px;
+    padding: 40px;
   }
 
   .circular-image-2 {
     width: 80%;
+    top: 240px;
   }
 
   .placeholder {
@@ -277,7 +281,15 @@ body {
   }
 
   .menu-card{
-     width: 350px;
+     width: 330px;
+  }
+
+  .menu-card img{
+    object-fit: contain;
+  }
+
+  .menu-font{
+    font-size: 5rem;
   }
 
   .social-contacts {
